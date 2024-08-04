@@ -1,0 +1,19 @@
+{
+  "title" : "Islami",
+  "quran" : "Quran",
+  "radio" : "Radio",
+  "hadeth" : "Hadeth",
+  "sebha" : "Sebha",
+  "setting" : "Setting",
+  "NumberofAyat" : "Number of Ayat",
+  "SuraName" : "Sura Name",
+  "numTasbeh" : "Number of Tasbeh",
+  "radioQuran" : "Radio of Elquran Alkarem",
+  "ahadeth": "El Ahadeth",
+  "language": "Language",
+  "arabic": "Arabic",
+  "english": "English",
+  "theme": "Theme",
+  "dark": "Dark",
+  "light": "Light"
+}

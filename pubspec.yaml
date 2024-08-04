@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.3.7
   provider: ^6.1.2
+  shared_preferences: ^2.3.0
   #js: ^0.7.1
 
 

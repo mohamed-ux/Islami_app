@@ -13,8 +13,8 @@ import 'generated/l10n.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
-    ChangeNotifierProvider(create:(context)=>MyProvider()),
-    ChangeNotifierProvider(create:(context)=>Languageprovider()),
+    ChangeNotifierProvider(create:(context)=>MyProvider()..getTheme()),
+    ChangeNotifierProvider(create:(context)=>Languageprovider()..getLocal()),
   ],
     child:const MyApp())
   );
@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var provider = Provider.of<MyProvider>(context);
-    var language = Provider.of<Languageprovider>(context);
+    var provider = Provider.of<MyProvider>(context)..getTheme();
+    var language = Provider.of<Languageprovider>(context)..getLocal();
     return MaterialApp(
       locale: language.locale,
       localizationsDelegates: [

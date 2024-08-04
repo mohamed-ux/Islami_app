@@ -35,6 +35,7 @@ class _SettingTabState extends State<SettingTab> {
           InkWell(
             onTap: () {
               showModalBottomSheet(
+                  backgroundColor: pro.mode==ThemeMode.light?Theme.of(context).primaryColor:Theme.of(context).primaryColorDark,
                   context: context,
                   isScrollControlled: true,
                   builder: (context) {
@@ -69,6 +70,7 @@ class _SettingTabState extends State<SettingTab> {
           InkWell(
             onTap: () {
               showModalBottomSheet(
+                backgroundColor: pro.mode==ThemeMode.light?Theme.of(context).primaryColor:Theme.of(context).primaryColorDark,
                   context: context,
                   isScrollControlled: true,
                   builder: (context) {

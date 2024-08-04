@@ -158,17 +158,17 @@ class QuranTab extends StatelessWidget {
                       fontSize: 25),
                 ),
               )),
-              Padding(
-                padding: EdgeInsets.symmetric(vertical: 3.5, horizontal: 10),
-                child: TableCell(
+              TableCell(
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 3.5, horizontal: 10),
                     child: Text(
                       S.of(context).SuraName,
-                  style: TextStyle(
+                style: TextStyle(
                       fontFamily: 'ElMessiri',
                       fontWeight: FontWeight.w600,
                       fontSize: 25),
-                )),
               ),
+                  )),
             ]),
           ],
         ),
@@ -198,18 +198,17 @@ class QuranTab extends StatelessWidget {
                               fontSize: 25),
                         ),
                       )),
-                      Padding(
-                        padding:
-                            EdgeInsets.symmetric(vertical: 3.5, horizontal: 40),
-                        child: TableCell(
+                      TableCell(
+                          child: Padding(
+                            padding: EdgeInsets.symmetric(vertical: 3.5, horizontal: 10),
                             child: Text(
-                          suraName[index],
-                          style: TextStyle(
+                        suraName[index],
+                        style: TextStyle(
                               fontFamily: 'ElMessiri',
                               fontWeight: FontWeight.w600,
                               fontSize: 25),
-                        )),
                       ),
+                          )),
                     ]),
                   ],
                 ),
